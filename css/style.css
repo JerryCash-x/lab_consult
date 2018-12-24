@@ -170,7 +170,7 @@ button {
     padding: 17px 0 7px;
     background: rgba(191,194,200,.41);
     border-top: 5px solid rgba(88, 100, 122);
-    box-shadow: 0 4px 0px rgba(191, 194, 200, .8);
+    box-shadow: 0 4px 0 rgba(191, 194, 200, .8);
 }
 
 .header__logo {
@@ -741,6 +741,15 @@ button {
     .header {
         padding-bottom: 147px;
     }
+
+    h1 {
+        padding: 96px 0 10px;
+    }
+
+    .offer__text {
+        padding-bottom: 20px;
+        width: 470px;
+    }
     
     .header__logo-link img {
         max-width: 230px;
@@ -869,7 +878,12 @@ button {
     }
     
     .nav-elems {
-        width: 271px;
+        width: auto;
+    }
+
+    .nav-elems a {
+        line-height: 1em;
+        width: 200px;
     }
 
     .nav__industries {
@@ -884,12 +898,29 @@ button {
         width: 165px;
     }
 
+    .nav__education .subtitles:nth-child(3) {
+        line-height: 1em;
+        max-width: 235px;
+    }
+
+    .mission__title {
+        width: 100%;
+    }
+
     .mission__title::after {
-        width: 54%;
+        width: 100%;
+    }
+
+    .trust__elem-wrap {
+        margin-bottom: 50px;
+    }
+
+    .trust__elem-third {
+        margin-bottom: 80px;
     }
 }
 
-@media (min-width: 576px) and (max-width: 640px) {
+@media (min-width: 576px) and (max-width: 650px) {
 
     .nav__industries .subtitles:nth-child(3) {
         line-height: 1em;
