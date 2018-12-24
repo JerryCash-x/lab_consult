@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 15" width="17" height="15">
+	<defs>
+		<image width="17" height="15" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPBAMAAADwnzkiAAAAAXNSR0IB2cksfwAAAC1QTFRFAAAAQ8n9Q8n9Q8n9Q8n9Q8n9Q8n9Q8n9Q8n9Q8n9Q8n9Q8n9Q8n9Q8n9Q8n9gPBikQAAAA90Uk5TACIzd+7/iFVEZrvdEaqZqJzFswAAAHJJREFUeJxjYAABRhDBBMTMrs5qAgwlDQwMU0NDoxoYpgYzMGwNDQ0RYFAN3awQGhoaxMAgFQoGMQwMpRCWAwPDaQjrAtCorWBWAQMDD5gVDTLaFMSKALE4lgJZE4AMwVogIxIkNBvIiBUAu6P53UswAwBUOCGO6U5jfgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="twiter" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+</svg>

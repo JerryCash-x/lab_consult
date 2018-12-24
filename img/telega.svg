@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 13" width="16" height="13">
+	<defs>
+		<image width="16" height="13" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAANBAMAAABSlfMXAAAAAXNSR0IB2cksfwAAADBQTFRFAAAAJaPUJaPUJaPUJaPUJaPUJaPUJaPUJaPUJaPUJaPUJaPUJaPUJaPUJaPUJaPU0aknUgAAABB0Uk5TACKIRFW7/6ozme53EczdZk0ysD0AAABjSURBVHicY2AAA0ZlCM0Slg6mO5ctywZSPHvTMq8lMzAwl6Xl+qblMHA/S0vb8SztAcPRtLTArrS0AgaGI/XMy9LSPoA0maWlpTWAGNuADLAxaqppuWDGbIZtSRAbGJgvMwAAQfcbypxqmvwAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="telega" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+</svg>
