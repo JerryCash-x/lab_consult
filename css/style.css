@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     padding: 92px 0 8px;
     font-size: 58px;
-    text-align: left
+    text-align: center
 }
 
 button {
@@ -259,9 +259,12 @@ button {
     font-size: 29px;
     font-family: 'Museo Sans 100', Roboto, sans-serif;
     line-height: 1.3em;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .offer__social {
+    margin: 0 auto;
     width: 172px;
     height: 52px;
     background: rgba(247, 248, 252, .82);
@@ -722,6 +725,10 @@ button {
         width: 19%;
     }
 
+    .news__title {
+        padding-top: 40px;
+    }
+
     .news__title::after {
         width: 100%;
     }
@@ -854,7 +861,7 @@ button {
     }
 
     .footer {
-        padding-bottom: 0;
+        padding-bottom: 35px;
     }
 
     .footer__cooperation {
@@ -918,6 +925,10 @@ button {
     .trust__elem-third {
         margin-bottom: 80px;
     }
+
+    .footer {
+        padding-bottom: 10px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 650px) {
@@ -930,11 +941,11 @@ button {
 
 @media screen and (max-width: 575px) {
     .header__nav-line {
-        padding: 31px 0 23px;
+        padding: 31px 0 22px;
     }
 
     .header__logo-link img {
-        max-width: 180px
+        width: auto;
     }
 
     .header__tel {
@@ -942,14 +953,21 @@ button {
     }
 
     h1 {
-        padding: 99px 0 17px;
+        text-align: center;
+        padding: 104px 0 17px;
         font-size: 45px;
     }
 
     .offer__text {
-        padding-bottom: 34px;
+        padding-bottom: 33px;
+        width: auto;
+        text-align: center;
         font-size: 25px;
         line-height: 1.2em;
+    }
+
+    .offer__social {
+        margin: 0 auto;
     }
 
     .header {
@@ -986,7 +1004,7 @@ button {
 
     .text-main {
         margin: 0 auto;
-        width: 458px;
+        width: auto;
     }
 
     .mission {
@@ -996,6 +1014,10 @@ button {
     .mission__title {
         padding-bottom: 21px;
         font-size: 20px;
+    }
+
+    .mission__text-left, .mission__text-right {
+        width: 100%;
     }
 
     .mission__text-left:nth-child(3) {
@@ -1022,29 +1044,44 @@ button {
         padding-bottom: 37px;
     }
 
-    .nav-elems {
+    .mission__btn {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-elems a {
+        width: auto;
         margin: 0 auto;
         text-align: center;
+        line-height: 1.4em;
     }
 
     .titles {
         text-align: center;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .nav {
+        padding-bottom: 46px;
     }
 
     .nav__company {
-        margin-bottom: 41px;
+        margin-bottom: 34px;
     }
 
     .nav__pressroom, .nav__services {
-        margin-bottom: 47px;
+        margin-bottom: 38px;
     }
 
     .nav__industries {
-        margin-bottom: 43px;
+        width: auto;
+        margin-bottom: 34px;
     }
 
     .nav__education {
-        margin-bottom: 49px;
+        width: auto;
+        margin-bottom: 30px;
     }
 
     .nav__soc {
@@ -1070,7 +1107,7 @@ button {
     }
 
     .development {
-        width: 39%;
+        justify-content: center;
         margin: 0 auto 26px;
     }
 

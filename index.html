@@ -22,6 +22,7 @@
     <!------------- bootstrap CSS --- ---------------->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!---------------- CSS Styles ---------------->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -29,7 +30,7 @@
         <div class="header__nav-line">
             <div class="container header__container">
                 <div class="row">
-                    <div class="col-5 col-sm-6 col-md-4 col-lg-5 col-xl-4">
+                    <div class="col-6 d-sm-block col-md-4 col-lg-5 col-xl-4">
                         <div class="header__logo">
                             <a href="index.html" class="header__logo-link"><img src="img/logo.svg" alt="My logo"></a>
                         </div>
@@ -53,7 +54,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-5 col-md-7 col-lg-6 col-xl-2 order-xl-2 d-flex justify-content-end">
+                    <div class="d-none col-sm-5 d-sm-block col-md-7 col-lg-6 col-xl-2 order-xl-2 d-md-flex justify-content-end">
                         <div class="header__tel"> 
                             <a href="tel:380732187847" class="header__phone btn-phone">
                                 <i class="fa fa-phone"></i>
@@ -61,7 +62,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-1 d-sm-flex align-items-center d-lg-none">
+                    <div class="col-5 col-sm-1 d-flex justify-content-end align-items-center d-lg-none">
                         <button class="menu-open">
                             <i class="fa fa-bars"></i>
                         </button>
@@ -275,19 +276,19 @@
     <footer class="footer" id="footer">
         <div class="footer__container container">
             <div class="row d-flex align-items-center">
-                <div class="col-12 col-sm-4 d-flex justify-content-center d-sm-block">
+                <div class="col-12 col-sm-7 col-md-4 d-flex justify-content-center d-sm-block">
                     <a href="index.html" class="footer__logo">
                         <img src="img/foot-logo.svg" alt="Lab Consulting">
                     </a>
                 </div>
-                <div class="col-sm-4 col-xl-3 d-xl-block d-lg-flex justify-content-end">
+                <div class="col-sm-5 col-xl-3 d-xl-block d-lg-flex justify-content-end">
                     <div class="footer__text-wrap">
                         <p class="footer__cooperation text-style">Вы хотите сотрудничать с нами? <br>У Вас есть идеи или предложения? Свяжитесь с нами прямо сейчас!</p>
                         <p class="footer__adress text-style">65000,<br>Украина, г. Одесса<br>Ул Базарная, 36</p>
                     </div>
                 </div>
                 <div class="col-md-3 d-lg-flex d-xl-block col-xl-2 justify-content-end">
-                    <div class="development__wrap">
+                    <div class="development__wrap d-sm-flex justify-content-space-between align-items-center d-md-block">
                         <div class="development d-flex">
                             <span class="development__letter text-style">W</span>
                             <p class="development__coaching text-style">Дизайн и разработка<br><span>коучинг по верстке</span></p>
@@ -307,5 +308,9 @@
             </div>
         </div>
     </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
