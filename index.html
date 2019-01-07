@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Final Work</title>
+    <title>LAB Consulting</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Мои навыки. Я это знаю очень хорошо. Мои работы" />
     <meta name="keywords" content="Дело, которым я живу. Верстка & Frontend" />
@@ -24,27 +24,50 @@
     <!---------------- CSS Styles ---------------->
     <link rel="stylesheet" href="css/jquery-ui.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-quaries.css">
 </head>
 <body>
-    <header class="header" id="header"> 
+    <!-- Preloader Start -->
+    <div id="page-preloader">
+        <div id="cssload-contain">
+            <div class="cssload-wrap" id="cssload-wrap1">
+                <div class="cssload-ball" id="cssload-ball1"></div>
+            </div>            
+            <div class="cssload-wrap" id="cssload-wrap2">
+                <div class="cssload-ball" id="cssload-ball2"></div>
+            </div>
+            <div class="cssload-wrap" id="cssload-wrap3">
+                <div class="cssload-ball" id="cssload-ball3"></div>
+            </div>
+            <div class="cssload-wrap" id="cssload-wrap4">
+                <div class="cssload-ball" id="cssload-ball4"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Finish -->
+    <header class="header parallax" id="parallax" 
+    data-type="background" data-speed="10"> 
         <div class="header__nav-line">
             <div class="container header__container">
                 <div class="row">
                     <div class="col-6 d-sm-block col-md-4 col-lg-5 col-xl-4">
                         <div class="header__logo">
-                            <a href="index.html" class="header__logo-link"><img src="img/logo.svg" alt="My logo"></a>
+                            <a href="index.html" 
+                            class="header__logo-link">
+                                <img src="img/logo.svg" alt="My logo">
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-12 col-xl-6 order-lg-1 d-none d-lg-block">
+                    <div class="col-lg-12 col-xl-6 order-lg-1 d-none d-lg-block menu-collapse">
                         <ul class="menu d-flex justify-content-center">
                             <li class="menu__item">
-                                <a href="#">О компании</a>
+                                <a href="about.html">О компании</a>
                             </li>
                             <li class="menu__item">
                                 <a href="#">Пресс-центр</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#">Услуги</a>
+                                <a href="services.html">Услуги</a>
                             </li>
                             <li class="menu__item">
                                 <a href="#">Отрасли</a>
@@ -70,14 +93,19 @@
                 </div>
             </div>
         </div>
+        <!-- ----------------------------------------Start Offer-->
+    <!-- ---------------------------------------------------- -->
         <div class="offer">
             <div class="container offer__container">
                 <div class="row">
                     <div class="col-12">
-                        <h1 class="offer__title color-text"><span>Lab</span> Consulting</h1>
+                        <h1 class="offer__title color-text">
+                            <span>Lab</span> Consulting
+                        </h1>
                         <p class="offer__text color-text">Ваш надежный партнер в области транспортно-логистического сопровождения</p>
                         <div class="offer__social d-flex justify-content-center align-items-center">
-                            <a class="offer__icon offer__icon_fb" href="#">
+                            <a class="offer__icon offer__icon_fb"
+                            href="#">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                             <a class="offer__icon offer__icon_twit" href="#"> 
@@ -92,6 +120,8 @@
             </div>
         </div>
     </header>
+    <!-- ----------------------------------------Start Trust-->
+    <!-- ---------------------------------------------------- -->
     <section class="trust" id="trust">
         <div class="container trust__container">
             <div class="row text-center">
@@ -111,7 +141,9 @@
                     <div class="col-12 col-sm-6 col-lg-4">
                         <div class="trust__elem-wrap trust__elem-centr">
                             <div class="trust__img-wrap">
-                                <img src="img/book.svg" alt="More books" class="trust__img_books">
+                                <img src="img/book.svg" 
+                                alt="More books" 
+                                class="trust__img_books">
                             </div>
                             <h3 class="trust__text-title">Как мы работаем?</h3>
                             <p class="trust__text text-main">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab ill</p>
@@ -130,8 +162,11 @@
                 <div class="col-12 text-center">
                     <a href="#" class="trust__btn">Подробнее</a>
                 </div>
+            </div>
         </div>    
     </section>
+    <!-- ----------------------------------------Start About-->
+    <!-- ---------------------------------------------------- -->
     <section class="about" id="about">
         <div class="about__container container">
             <div class="row d-flex text-center">
@@ -140,7 +175,9 @@
                         <div class="about__word-wrap d-flex align-items-center">
                             <p>L</p>
                         </div>
-                        <h3 class="about__text-title color-text"><span class="text-red">L</span>egal</h3>
+                        <h3 class="about__text-title color-text">
+                            <span class="text-red">L</span>egal
+                        </h3>
                         <p class="about__text text-main">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth</p>
                     </div>
                 </div>
@@ -149,7 +186,9 @@
                         <div class="about__word-wrap d-flex align-items-center">
                             <p>A</p>
                         </div>
-                        <h3 class="about__text-title color-text"><span class="text-red">A</span>ccounting</h3>
+                        <h3 class="about__text-title color-text">
+                            <span class="text-red">A</span>ccounting
+                        </h3>
                         <p class="about__text text-main">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth</p>
                     </div>
                 </div>
@@ -158,13 +197,17 @@
                         <div class="about__word-wrap d-flex align-items-center">
                             <p>B</p>
                         </div>
-                        <h3 class="about__text-title color-text"><span class="text-red">B</span>usiness</h3>
+                        <h3 class="about__text-title color-text">
+                            <span class="text-red">B</span>usiness
+                        </h3>
                         <p class="about__text text-main">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- ----------------------------------------Start Mission-->
+    <!-- ---------------------------------------------------- -->
     <section class="mission news" id="mission news">
         <div class="mission__container container">
             <div class="row d-flex">
@@ -187,21 +230,24 @@
                 <div class="col-12 col-xl-3">
                     <h3 class="news__title">Новости</h3>
                     <div class="news__wrap d-flex">
-                        <img src="img/home__car.jpg" alt="Lab Sonsultuing запускает новое направление" class="news__img">
+                        <img src="img/home__car.jpg" 
+                        alt="Lab Sonsultuing запускает новое направление" class="news__img">
                         <div class="news__text-wrap">
                             <a href="#" class="news__text">LAB Consulting запускает новое направление в своих услугах</a>
                             <p class="news__date">02.12.2015</p>
                         </div>
                     </div>
                     <div class="news__wrap d-flex">
-                        <img src="img/home__car.jpg" alt="Lab Sonsultuing запускает новое направление" class="news__img">
+                        <img src="img/home__car.jpg" 
+                        alt="Lab Sonsultuing запускает новое направление" class="news__img">
                         <div class="news__text-wrap">
                             <a href="#" class="news__text">LAB Consulting запускает новое направление в своих услугах</a>
                             <p class="news__date">02.12.2015</p>
                         </div>
                     </div>
                     <div class="news__wrap d-flex">
-                        <img src="img/home__car.jpg" alt="Lab Sonsultuing запускает новое направление" class="news__img">
+                        <img src="img/home__car.jpg" 
+                        alt="Lab Sonsultuing запускает новое направление" class="news__img">
                         <div class="news__text-wrap">
                             <a href="#" class="news__text">LAB Consulting запускает новое направление в своих услугах</a>
                             <p class="news__date">02.12.2015</p>
@@ -211,13 +257,16 @@
             </div>
         </div>
     </section>
+    <!-- ----------------------------------------Start Nav-->
+    <!-- ---------------------------------------------------- -->
     <section class="nav" id="nav">
         <div class="container nav__container">
             <div class="row d-flex flex-wrap ">
                 <div class="col-sm-6 col-md-6 col-lg-4">
                     <div class="nav-elems nav__company">
                         <h3 class="nav__company-title titles">О компании</h3>
-                        <a href="#" class="subtitles">Видение, миссия и ценности</a>    
+                        <a href="#" class="subtitles">
+                        Видение, миссия и ценности</a>    
                         <a href="#" class="subtitles">Преимущества</a>
                         <a href="#" class="subtitles">Клиенты</a>
                         <a href="#" class="subtitles">Партнеры</a>
@@ -230,24 +279,30 @@
                         <a href="#" class="subtitles">Новости</a>
                         <a href="#" class="subtitles">Публикации</a>
                         <a href="#" class="subtitles">Мероприятия</a>
-                        <a href="#" class="subtitles">Консультация эксперта</a>    
+                        <a href="#" class="subtitles">
+                        Консультация эксперта</a>    
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-4">
                     <div class="nav-elems nav__services">
                         <h3 class="nav__services-title titles">Услуги</h3>
-                        <a href="#" class="subtitles">Legal (Юридическое сопровождение)</a>
-                        <a href="#" class="subtitles">Accounting ( Финансовый аутсорсинг)</a>
-                        <a href="#" class="subtitles">Business Consulting (Бизнес консалтинг)</a>
+                        <a href="#" class="subtitles">
+                        Legal (Юридическое сопровождение)</a>
+                        <a href="#" class="subtitles">
+                        Accounting ( Финансовый аутсорсинг)</a>
+                        <a href="#" class="subtitles">
+                        Business Consulting (Бизнес консалтинг)</a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-4">
                     <div class="nav-elems nav__industries">
                         <h3 class="nav__industries-title titles">Отрасли</h3>
-                        <a href="#" class="subtitles">Аграрный сектор</a>
+                        <a href="#" class="subtitles">
+                        Аграрный сектор</a>
                         <a href="#" class="subtitles">Внешнеэкономическая деятельность</a>
                         <a href="#" class="subtitles">ИT – бизнес</a>
-                        <a href="#" class="subtitles">Оптовая и розничная торговля</a>
+                        <a href="#" class="subtitles">
+                        Оптовая и розничная торговля</a>
                         <a href="#" class="subtitles">Сфера услуг</a>
                         <a href="#" class="subtitles">Транспорт и Логистика</a>
                     </div>
@@ -255,7 +310,8 @@
                 <div class="col-sm-6 col-md-6 col-lg-4">
                     <div class="nav-elems nav__education">
                         <h3 class="nav__education-title titles">Образовательный центр</h3>
-                        <a href="#" class="subtitles">Про Образовательный Центр</a>
+                        <a href="#" class="subtitles">
+                        Про Образовательный Центр</a>
                         <a href="#" class="subtitles">Бизнес-тренинги, семинары, круглые столы</a>
                         <a href="#" class="subtitles">Преимущества</a>
                         <a href="#" class="subtitles">Alumni</a>
@@ -263,43 +319,56 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="nav-elems nav__soc">
-                        <h3 class="nav__soc-title titles">Соц. предпринимательство</h3>
-                        <a href="#" class="subtitles">Социальная миссия</a>
+                        <h3 class="nav__soc-title titles">
+                        Соц. предпринимательство</h3>
+                        <a href="#" class="subtitles">
+                        Социальная миссия</a>
                         <a href="#" class="subtitles">Проекты</a>
                         <a href="#" class="subtitles">Партнеры</a>
-                        <a href="#" class="subtitles">Консультация эксперта</a>        
+                        <a href="#" class="subtitles">
+                        Консультация эксперта</a>        
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- ----------------------------------------Start Footer-->
+    <!-- ---------------------------------------------------- -->
     <footer class="footer" id="footer">
         <div class="footer__container container">
             <div class="row d-flex align-items-center">
                 <div class="col-12 col-sm-7 col-md-4 d-flex justify-content-center d-sm-block">
                     <a href="index.html" class="footer__logo">
-                        <img src="img/foot-logo.svg" alt="Lab Consulting">
+                        <img src="img/foot-logo.svg" 
+                        alt="Lab Consulting">
                     </a>
                 </div>
                 <div class="col-sm-5 col-xl-3 d-xl-block d-lg-flex justify-content-end">
                     <div class="footer__text-wrap">
                         <p class="footer__cooperation text-style">Вы хотите сотрудничать с нами? <br>У Вас есть идеи или предложения? Свяжитесь с нами прямо сейчас!</p>
-                        <p class="footer__adress text-style">65000,<br>Украина, г. Одесса<br>Ул Базарная, 36</p>
+                        <p class="footer__adress text-style">65000,
+                        <br>Украина, г. Одесса<br>Ул Базарная, 36</p>
                     </div>
                 </div>
                 <div class="col-md-3 d-lg-flex d-xl-block col-xl-2 justify-content-end">
                     <div class="development__wrap d-sm-flex justify-content-space-between align-items-center d-md-block">
                         <div class="development d-flex">
                             <span class="development__letter text-style">W</span>
-                            <p class="development__coaching text-style">Дизайн и разработка<br><span>коучинг по верстке</span></p>
+                            <p class="development__coaching 
+                            text-style">Дизайн и разработка<br>
+                            <span>коучинг по верстке</span></p>
                         </div>
-                        <p class="footer__rights text-style">© Все права защищены<br><span>LAB Consulting</span></p>
+                        <p class="footer__rights text-style">
+                            © Все права защищены<br>
+                            <span>LAB Consulting</span>
+                        </p>
                         <a href="#" class="footer__link text-style">lab-consult.com</a>
                     </div>
                 </div>
                 <div class="d-sm-none col-lg-12 col-xl-3 d-xl-block d-lg-flex justify-content-center">
                     <div class="footer__tel d-flex"> 
-                        <a href="tel:380732187847" class="footer__phone btn-phone">
+                        <a href="tel:380732187847" 
+                        class="footer__phone btn-phone">
                             <i class="fa fa-phone"></i>
                             Заказать звонок
                         </a>
@@ -308,9 +377,12 @@
             </div>
         </div>
     </footer>
+    <!-- ----------------------------------------Start Scripts-->
+    <!-- ---------------------------------------------------- -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/parallax-bg.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

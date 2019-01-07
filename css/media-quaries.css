@@ -1,0 +1,595 @@
+/* -------------------- Media Quaries ---------------------- */
+
+@media screen and (max-width: 1210px) {
+
+    .header__logo:hover {
+        box-shadow: none;
+        border-radius: none;
+        transform: scale3d(1.02, 1.1, 1.1)
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1225px) {
+    
+    .slick-next {
+        right: -12px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .menu {
+        justify-content: center;
+        margin-top: 15px
+    }
+
+    .menu__item {
+        margin: 0 3px;
+        width: 19%
+    }
+
+    .news__title {
+        padding-top: 40px
+    }
+
+    .news__title::after {
+        width: 100%
+    }
+
+    .footer {
+        padding-bottom: 25px
+    }
+
+    .offer-comp__text {
+        width: 458px
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .header__nav-line {
+        padding: 26px 0 14px;
+        border-top: 3px solid rgba(88, 100, 122)
+    }
+
+    .header {
+        padding-bottom: 147px
+    }
+
+    h1 {
+        padding: 96px 0 10px
+    }
+
+    .offer__text {
+        padding-bottom: 20px;
+        width: 470px
+    }
+    
+    .header__logo-link img {
+        max-width: 230px
+    }
+
+    .header__tel {
+        margin-top: 10px
+    }
+
+    .trust {
+        padding-top: 51px
+    }
+
+    .trust__title {
+        margin-bottom: 42px
+    }
+
+    .trust__elem-wrap {
+        margin-bottom: 32px
+    }
+
+    .trust__elem-third {
+        margin-bottom: 108px
+    }
+
+    .about {
+        padding: 83px 0 29px
+    }
+
+    .about__elem-wrap {
+        margin-bottom: 42px
+    }
+
+    .news__title {
+        padding: 55px 0 20px
+    }
+
+    .news__wrap {
+        margin-bottom: 12px;
+        padding-bottom: 15px
+    }
+
+    .news__date {
+        margin-top: 4px
+    }
+
+    .news__text-wrap {
+        margin-top: 13px;
+        width: auto
+    }
+
+    .mission {
+        padding-bottom: 29px
+    }
+
+    .mission__text-left {
+        width: 344px
+    }
+
+    .mission__text-left:nth-child(3) {
+        margin-bottom: 41px
+    }
+
+    .mission__text-right {
+        max-width: 350px
+    }
+
+    .nav {
+        padding: 39px 0 55px
+    }
+
+    .nav-elems {
+        margin-bottom: 62px
+    }
+
+    .nav__industries {
+        margin-bottom: 67px
+    } 
+
+    .nav__soc, .nav__education {
+        margin-bottom: 0
+    }
+
+    .footer__logo {
+        transform: translateY(-28%)
+    }
+
+    .footer__logo img {
+        max-width: 202px
+    }
+
+    .development {
+        margin: 37px 0 25px
+    }
+
+    .development__coaching {
+        min-width: 140px
+    }
+
+    .footer__tel {
+        justify-content: center
+    }
+
+    .footer {
+        padding-bottom: 35px
+    }
+
+    .footer__cooperation {
+        padding-top: 30px
+    }
+
+    .footer__rights {
+        min-width: 140px;
+        margin: 0 30px
+    }
+
+    .footer__link {
+        text-align: center
+    }
+
+    .aboutcomp__links {
+        text-align: center
+    }
+
+    .offer-comp {
+        text-align: center
+    }
+
+    .advantage__text {
+        width: 100%
+    }
+
+    .advantage__wrap:after {
+        width: 100%
+    }
+
+    .gallery__img {
+        width: 100%
+    }
+
+    .offer-comp__text {
+        width: 450px
+    }
+
+    .offer-comp__text:nth-child(2) {
+        margin-left: 20px
+    }
+
+    .services__title {
+        text-align: center
+    }
+
+    .aboutcomp__links {
+        text-align: center
+    }
+
+    .about-comp__btn {
+        margin-bottom: 0
+    } 
+
+    .LawM__wrap {
+        display: none
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .mission__text-left, .mission__text-right {
+        min-width: 100%
+    }
+    
+    .nav-elems {
+        width: auto
+    }
+
+    .nav-elems a {
+        line-height: 1em;
+        width: 200px
+    }
+
+    .nav__industries {
+        width: 265px
+    }
+
+    .nav__education {
+        width: 300px
+    }
+
+    .nav__soc {
+        width: 165px
+    }
+
+    .nav__education .subtitles:nth-child(3) {
+        line-height: 1em;
+        max-width: 235px
+    }
+
+    .mission__title {
+        width: 100%
+    }
+
+    .mission__title::after {
+        width: 100%
+    }
+
+    .trust__elem-wrap {
+        margin-bottom: 50px
+    }
+
+    .trust__elem-third {
+        margin-bottom: 80px
+    }
+
+    .footer {
+        padding-bottom: 10px
+    }
+
+    .aboutcomp__menu {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px
+    }
+
+    .aboutcomp__btn {
+        width: auto
+    }
+
+    .offer-comp__wrap {
+        flex-direction: column
+    }
+
+    .offer-comp__text {
+        margin-bottom: 25px;
+        width: auto
+    }
+
+    .advantage__img {
+        padding-left: 0;
+        padding-top: 90px
+    }
+
+    .gallery {
+        padding-bottom: 0
+    }
+
+    .gallery__wrap {
+        margin-bottom: 20px
+    }
+
+    .offer-comp__text:nth-child(2) {
+        margin: 0
+    }
+
+    .services__menu {
+        flex-direction: column
+    }
+
+    .services__btn {
+        padding-left: 0;
+        margin: 0 auto
+    }
+
+    .aboutcomp__menu {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px
+    }
+
+    .aboutcomp__btn {
+        width: auto
+    }
+
+    .LawM__content {
+        width: 100%
+    }
+
+    .LawM__title {
+        text-align: center
+    }
+
+    .LavM__text {
+        width: auto;
+        text-align: center
+    }
+
+    .LavM__img {
+        margin: 0 auto;
+        text-align: center
+    }
+
+    .content__box {
+        width: 100%
+    }
+
+    .slick-prev, .slick-next {
+        display: block
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 650px) {
+
+    .nav__industries .subtitles:nth-child(3) {
+        line-height: 1em;
+        width: 150px
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    
+    .header__nav-line {
+        padding: 31px 0 22px
+    }
+
+    .header__logo-link img {
+        width: auto
+    }
+
+    .header__tel {
+        margin-top: 6px
+    }
+
+    h1 {
+        text-align: center;
+        padding: 104px 0 17px;
+        font-size: 45px
+    }
+
+    .offer__text {
+        padding-bottom: 33px;
+        width: auto;
+        text-align: center;
+        font-size: 25px;
+        line-height: 1.2em
+    }
+
+    .offer__social {
+        margin: 0 auto
+    }
+
+    .header {
+        padding-bottom: 106px
+    }
+
+    .trust {
+        padding-top: 55px
+    }
+
+    .trust__title {
+        font-size: 25px
+    }
+
+    .trust__elem-wrap {
+        margin-bottom: 30px
+    }
+
+    .trust__elem-centr p {
+        max-width: 445px
+    }
+
+    .trust__elem-third {
+        margin-bottom: 94px
+    }
+
+    .about {
+        padding: 65px 0 21px
+    }
+
+    .about__elem-wrap {
+        margin-bottom: 43px
+    }
+
+    .text-main {
+        margin: 0 auto;
+        width: auto
+    }
+
+    .mission {
+        padding-top: 31px
+    }
+
+    .mission__title {
+        padding-bottom: 21px;
+        font-size: 20px
+    }
+
+    .mission__text-left, .mission__text-right {
+        width: 100%
+    }
+
+    .mission__text-left:nth-child(3) {
+        margin-bottom: 44px
+    }
+
+    .mission__wrap-right {
+        margin-top: 49px
+    }
+
+    .mission__text-right {
+        margin-bottom: 16px
+    }
+
+    .news__title {
+        padding: 14px 0 20px
+    }
+
+    .news__wrap {
+        margin-bottom: 8px
+    }
+
+    .mission {
+        padding-bottom: 37px
+    }
+
+    .mission__btn {
+        display: block;
+        text-align: center
+    }
+
+    .nav-elems a {
+        width: auto;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.4em
+    }
+
+    .titles {
+        text-align: center;
+        padding-bottom: 20px;
+        text-align: center
+    }
+
+    .nav {
+        padding-bottom: 46px
+    }
+
+    .nav__company {
+        margin-bottom: 34px
+    }
+
+    .nav__pressroom, .nav__services {
+        margin-bottom: 38px
+    }
+
+    .nav__industries {
+        width: auto;
+        margin-bottom: 34px
+    }
+
+    .nav__education {
+        width: auto;
+        margin-bottom: 30px
+    }
+
+    .nav__soc {
+        width: auto
+    }
+
+    .footer {
+        padding-top: 68px
+    }
+
+    .footer__text-wrap {
+        margin: 58px auto 29px;
+        text-align: center
+    }
+
+    .footer__adress {
+        margin: 0 auto
+    }
+
+    .footer__cooperation {
+        margin: 0 auto;
+        padding-bottom: 29px
+    }
+
+    .development {
+        justify-content: center;
+        margin: 0 auto 26px
+    }
+
+    .footer__rights {
+        text-align: center
+    }
+
+    .footer__phone {
+        margin-top: 0
+    }
+
+    .footer__tel {
+        padding-top: 43px
+    }
+
+    .footer__link {
+        text-align: center
+    }
+
+    .offer-comp__title {
+        font-size: 28.5px
+    }
+
+    .offer-comp p {
+        font-size: 11px
+    }
+
+    .content__request {
+        display: block
+    }
+
+    .content__btn {
+        margin-bottom: 10px
+    }
+
+    .slick-prev, .slick-next {
+        display: none !important
+    }
+
+}
+
+
+
+
+
+
+
+
+
