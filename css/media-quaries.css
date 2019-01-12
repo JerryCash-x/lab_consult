@@ -19,8 +19,12 @@
 @media screen and (max-width: 1200px) {
 
     .menu {
-        justify-content: center;
-        margin-top: 15px
+        background: rgba(0,0,0, .8);
+        position: absolute;
+        left: 14%;
+        top: 20px;
+        box-shadow: 2px 3px 41px 3px;
+        z-index: 2
     }
 
     .menu__item {
